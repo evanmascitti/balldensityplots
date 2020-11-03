@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_ballfield.R
 \name{theme_ballfield}
 \alias{theme_ballfield}
-\title{Adjust theme elements of a a \code{ggspray_ecm} plot}
+\title{Adjust theme elements of a a \code{ggspray_ecm} plot \strong{without} altering any font sizes (this will be left to \strong{cowplot})}
 \usage{
 theme_ballfield(base_size = 12, base_family = "Arial Narrow")
 }
