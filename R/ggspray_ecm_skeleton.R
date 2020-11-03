@@ -31,7 +31,7 @@ ggspraychart_ecm_skeleton <- function (data, x_value = "hc_x", y_value = "-hc_y"
                    contour = TRUE, geom = "polygon",
                    bins = bin_size) +
     ggplot2::xlim(0, 250) +
-    ggplot2::ylim(-215, 0) +
+    ggplot2::ylim(-220, -30)+
     ggplot2::coord_fixed()
 
   return(plot)

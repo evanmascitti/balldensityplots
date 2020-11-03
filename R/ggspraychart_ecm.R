@@ -37,7 +37,7 @@ ggspraychart_ecm <- function (data, x_value = "hc_x", y_value = "-hc_y",
     ggplot2::scale_fill_gradient(low = low_color, high = high_color,
                         guide = "colourbar", labels= scales::label_comma())+
     ggplot2::xlim(25, 228) +
-    ggplot2::ylim(-210, -80) +
+    ggplot2::ylim(-220, -30)+
     ggplot2::coord_fixed() +
     ggplot2::labs(fill= 'Fielded ball density')
 
