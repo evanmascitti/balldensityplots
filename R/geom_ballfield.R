@@ -15,6 +15,6 @@ geom_ballfield <- function() {
     ggplot2::geom_segment(x = 128, xend = 223, y = -208, yend = -90),  # RF line
     ggplot2::geom_curve(x = 81, xend = 172, y = -154, yend = -154, curvature = -0.65), # inf arc
     ggplot2::geom_segment(x = 101,  xend = 127, y = -176, yend = -150),  #2b-3b line
-    ggplot2::geom_segment(x = 155,  xend = 127, y = -176, yend = -150),  #1b-2b line
+    ggplot2::geom_segment(x = 155,  xend = 127, y = -176, yend = -150)  #1b-2b line
     )
 }
