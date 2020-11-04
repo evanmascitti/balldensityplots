@@ -3,12 +3,11 @@
 #' This theme removes undesired components and sets the parameters for the legend, # etc.
 #'
 #' @param base_size font size
-#' @param base_family font family
 #'
 #' @return
 #' @export
 #'
-theme_ballfield_fixed_font_sizes <- function(base_size = 12, base_family= "Arial Narrow") {
+theme_ballfield_fixed_font_sizes <- function(base_size = 12) {
 
   ggplot2::theme_minimal(base_size = base_size) %+replace%
     ggplot2::theme(
@@ -33,10 +32,3 @@ theme_ballfield_fixed_font_sizes <- function(base_size = 12, base_family= "Arial
       legend.text = ggplot2::element_blank()
       )
 }
-
-
-
-
-
-
-legend.title.align = 0

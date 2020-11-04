@@ -4,12 +4,10 @@
 \alias{theme_ballfield_fixed_font_sizes}
 \title{Adjust theme elements of a a \code{ggspray_ecm} plot}
 \usage{
-theme_ballfield_fixed_font_sizes(base_size = 12, base_family = "Arial Narrow")
+theme_ballfield_fixed_font_sizes(base_size = 12)
 }
 \arguments{
 \item{base_size}{font size}
-
-\item{base_family}{font family}
 }
 \value{
 

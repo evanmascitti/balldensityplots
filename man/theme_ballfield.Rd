@@ -4,12 +4,10 @@
 \alias{theme_ballfield}
 \title{Adjust theme elements of a a \code{ggspray_ecm} plot \strong{without} altering any font sizes (this will be left to \strong{cowplot})}
 \usage{
-theme_ballfield(base_size = 12, base_family = "Arial Narrow")
+theme_ballfield(base_size = 12)
 }
 \arguments{
 \item{base_size}{font size}
-
-\item{base_family}{font family}
 }
 \value{
 
